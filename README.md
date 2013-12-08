@@ -17,14 +17,13 @@ Support ruby version over 2.0
         sqlite>.q
     ~~~
 
-2. Bundle install.
+    ~~~ sh
+        $ bundle install \-\-path vendor/bundle
+    ~~~
 
-    --- sh
-        hallo
-    ---
 
 3. Execute script.
 
-    --- sh
+    ~~~ sh
         $ bundle exec \-\- ruby wikipedia-pornstars.rb
-    --- 
+    ~~~ 
