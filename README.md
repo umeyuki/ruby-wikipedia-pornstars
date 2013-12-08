@@ -18,12 +18,12 @@ Support ruby version over 2.0
     ~~~
 
     ~~~ sh
-        $ bundle install \-\-path vendor/bundle
+        $ bundle install --path vendor/bundle
     ~~~
 
 
 3. Execute script.
 
     ~~~ sh
-        $ bundle exec \-\- ruby wikipedia-pornstars.rb
+        $ bundle exec -- ruby wikipedia-pornstars.rb
     ~~~ 
