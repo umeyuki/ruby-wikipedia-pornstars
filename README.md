@@ -20,7 +20,7 @@ Support ruby version over 2.0
 2. Bundle install.
 
     --- sh
-        $ bundle install 
+        hallo
     ---
 
 3. Execute script.
