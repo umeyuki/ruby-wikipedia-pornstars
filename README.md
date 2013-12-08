@@ -10,7 +10,8 @@ Support ruby version over 2.0
 
     ~~~ sh
         $ sqlite3 ./db/pornstar.db
-        $ read ./etc/inital_tables.sql
+        sqlite>.read ./etc/inital_tables.sql
+        sqlite>.q
     ~~~
 
 2. Bundle install
