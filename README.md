@@ -19,6 +19,13 @@ Support ruby version over 2.0
 
 2. Bundle install.
 
+    ~~~ sh
+        $ bundle install --path vendor/bundle
+        $ sqlite3 ./db/pornstar.db
+        sqlite>.read ./etc/inital_tables.sql
+        sqlite>.q
+    ~~~
+
     --- sh
         $ bundle install --path vendor/bundle
     ---
