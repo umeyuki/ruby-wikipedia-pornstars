@@ -9,7 +9,7 @@ Support ruby version over 2.0
 1. Setup sqlite3 database.
 
     ~~~ sh
-        $ sqlite3 ./db/wikipedia_pornstar.db
+        $ sqlite3 ./db/pornstar.db
         $ read ./etc/inital_tables.sql
     ~~~
 
