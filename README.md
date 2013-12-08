@@ -14,11 +14,13 @@ Support ruby version over 2.0
     ~~~
 
 2. Bundle install
+
     --- sh
         $ bundle install --path vendor/bundle
     ---
 
 3. Execute
+
     --- sh
         $ bundle exec -- ruby wikipedia-pornstars.rb
     --- 
