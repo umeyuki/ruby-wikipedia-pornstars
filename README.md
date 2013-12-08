@@ -19,19 +19,12 @@ Support ruby version over 2.0
 
 2. Bundle install.
 
-    ~~~ sh
-        $ bundle install
-        $ sqlite3 ./db/pornstar.db
-        sqlite>.read ./etc/inital_tables.sql
-        sqlite>.q
-    ~~~
-
     --- sh
-        $ bundle install --path vendor/bundle
+        $ bundle install \-\-path vendor/bundle
     ---
 
 3. Execute script.
 
     --- sh
-        $ bundle exec -- ruby wikipedia-pornstars.rb
+        $ bundle exec \-\- ruby wikipedia-pornstars.rb
     --- 
